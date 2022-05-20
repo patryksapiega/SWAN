@@ -1,0 +1,15 @@
+INPUT DATA:
+
+Wind data samples are available at: https://github.com/patryksapiega/SWAN/blob/main/COSMO_SAMPLES.zip
+Bathymetric data come from the Polish Navy (Hydrographic Office) and are protected by copyright
+
+For the complete code, see the User Manual on pages 119-126, available at: https://github.com/patryksapiega/SWAN/blob/main/manual.pdf.
+The properties and parameterization of the model are described in the article. The following are those that have been explained briefly or omitted:
+
+Settings: SET NAUT, COORD CART
+Model Input: CGRID CURV 0.0 0.0    0.0  1293942.0  671993.0   159    119 CIRCLE 36 0.05 1.0 34
+Diffraction: smpar=0.2 smnum=1
+ON: Breaking, friction, triads
+JONSWAP: 3.3
+
+
